@@ -80,7 +80,7 @@ class ServerIO {
       })
     })
 
-    this.httpServer.listen(3666)
+    this.httpServer.listen(3666, '0.0.0.0')
   }
 
   createLogeasyFolder () {
